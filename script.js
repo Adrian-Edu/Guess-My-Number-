@@ -32,12 +32,8 @@ const modify = document
       document.querySelector('.number').textContent = secretNumber;
       document.querySelector('.number').style.width = '200px';
       document.querySelector('.number').style.fontSise = '80px';
-      // ma mai uit peste codul din curs
+
       if (score > highscore) {
-        document.querySelector('.highscore').textContent = score;
-      } else if (score < highscore) {
-        document.querySelector('.highscore').textContent = highscore;
-      } else {
         document.querySelector('.highscore').textContent = score;
       }
     }

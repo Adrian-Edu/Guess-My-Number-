@@ -34,6 +34,7 @@ const modify = document
       document.querySelector('.number').style.fontSise = '80px';
 
       if (score > highscore) {
+        highscore = score;
         document.querySelector('.highscore').textContent = score;
       }
     }
